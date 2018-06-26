@@ -9,8 +9,8 @@ To test mkfile:
 ```
 bin/targets | head -n1 | xargs mk
 ```
-:  
-`data/` folder contains `.fastqc_html` and `.fastqc.zip` files from quality control analisys.  
+
+The `data/` folder contains `.fastqc_html` and `.fastqc.zip` files from quality control analisys.  
 MultiQC reports will be output to `results/` dir.
 
 ---
